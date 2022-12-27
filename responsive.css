@@ -1,0 +1,175 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .checkbtn {
+        display: block;
+    }
+    header ul {
+        position: fixed;
+        display: inline;
+        width: 100%;
+        height: 100vh;
+        top: 70px;
+        left: -100%;
+        background-color: #151C2B;
+        text-align: center;
+        transition: all .5s;
+    }
+    header ul li {
+        display: block;
+        margin: 0;
+        line-height: 30px;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    #check:checked ~ .checkbtn  i::before {
+        content: "\f00d";
+    }
+    /* slider-section */
+    slider-section {
+        display: block;
+    }
+    .slider__left {
+        width: auto;
+        margin: 0;
+    }
+    .slider__heading {
+        font-size: 20px;
+    }
+    .slider__para {
+        font-size: 20px;
+    }
+    /* .slider__right */
+    .slider__right {
+        width: auto;
+        margin-top: 50px;
+        line-height: 80px;
+    }
+    .first__downdown {
+        width: 80px;
+        padding: 1rem .25rem;
+        line-height: 30px;
+    }
+    .cowndown  {
+        margin: 0;
+    }
+    /* after-slider-section */
+    .center {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        margin: 5rem 2rem;
+    }
+    .center h2 {
+        font-size: 40px;
+    }
+    .plateform {
+        display: block;
+        margin: 0;
+    }
+    .secure {
+        width: 400px;
+        margin-left: 40px;
+    }
+    /* cryptocurrency-section */
+    .crypto {
+        display: block;
+    }
+    /* .start__99 */
+    .start__99 {
+        display: block;
+        margin-left: 30px;
+    }
+    .build__img {
+        width: 400px;
+    }
+    build-section {
+        display: block;
+    }
+    .build__text {
+        width: 400px;
+    }
+    .build__text h2 {
+        font-size: 50px;
+    }
+    /* values-section */
+    .token-section {
+        display: block;
+    }
+    /* menegment-section */
+    .chat {
+        display: block;
+    }
+    .chat__1, .chat__2 {
+        width: 400px;
+        margin-left: 30px;
+    }
+    .token__description {
+        margin: 0;
+        text-align: center;
+    }
+    /* content-secion*/
+    .fist__content {
+        display: block;
+        margin-left: 35px;
+    }
+    .time__content__fck {
+        display: none;
+    }
+    /* install-section  */
+    install-section {
+        display: block;
+    }
+    .first__line__icon a, .second__line__cion a{
+        font-size: 20px;
+    }
+    .install__icon__btn a {
+        margin: 0;
+    }
+    .install__right__img {
+        width: 400px;
+        margin-left: 10px;
+    }
+    /* meet-section */
+    .men {
+        display: block;
+        text-align: center
+    }
+    /* advarsor-section */
+    .adversor {
+        display: block;
+    }
+    /* frist__faq  */
+    .faq-div  {
+        display: block;
+    }
+    .faq__img {
+        width: 400px;
+        margin-top: 20px;
+    }
+    /* blog-section */
+    .blog {
+        display: block;
+    }
+    /* subcribe-section */
+    .center__subcirbe {
+        font-size: 25px;
+    }
+    /* form-sectin */
+    .form-section-bottom {
+        display: block;
+        margin: 0rem;
+    }
+    .name, .email, .subject, .submit, .message, .address {
+        width: 80%;
+        margin-left: 40px;
+    }
+    /* footer */
+    .footer__link  a{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .footer__link ul li {
+        margin: 0;
+        padding: 10px;
+    }
+}

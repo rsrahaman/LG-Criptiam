@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: var(--bgc);
+}
+:root {
+    --bgc: #151C2B;
+    --text: #F7F7F8;
+}
+/* ===========================================header-section ===========================================*/
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color:#151C2B;
+}
+.header__logo__Img {
+    cursor: pointer;
+}
+header ul {
+    display: flex;
+    align-items: center;
+}
+header  ul li {
+    padding: 1rem;
+}
+header  ul li a{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: serif;
+    color: var(--text);
+}
+header ul li a:hover {
+    color: #F2924C;
+    border-bottom: 3px solid #F2924C;
+    transition: 0.5s;
+}
+.checkbtn {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+
+/* ===========================================slider-section=========================================== */
+slider-section {
+    display: flex;
+    margin: 2.50rem;
+}
+.slider__left {
+    width: 60%;
+    margin-right: 2rem;
+}
+.slider__heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+}
+.slider__para {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: wheat;
+    padding: 2rem 0rem;
+}
+.slider__button__1, .slider__button__3, .build__text a, .blog__btn a ,.subscirbe__now{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #ffaa17;
+    margin-top: 1rem;
+    border: 2px solid #ffaa17;
+    padding: 1rem 2.25rem;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.slider__button__1:hover, .slider__button__3:hover, .build__text a:hover, .blog__btn a:hover, .subscirbe__now:hover{
+    background-color: var(--bgc);
+    border: 2px solid #fff;
+    margin-top: 1rem;
+    padding: 1rem 2.25rem;
+    border-radius: 40px;
+    transition: .5s;
+}
+.slider__button__2{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #dc045d;
+    margin-top: 1rem;
+    border: 2px solid #dc045d;
+    padding: 1rem 2.25rem;
+    border-radius: 40px;
+}
+.slider__button__2:hover{
+    background-color: var(--bgc);
+    border: 2px solid #fff;
+    margin-top: 1rem;
+    padding: 1rem 2.25rem;
+    border-radius: 40px;
+    transition: .5s;
+}
+
+/* ===========================================slider__right=========================================== */
+.slider__right {
+    width: 40%;
+    text-align: center;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 20px;
+}
+.slider__left__heading {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 20px;
+}
+.first__downdown {
+    padding: 1rem;
+    margin: 5px;
+    color: #fff;
+    border-radius: 5px;
+    background-color:#1E2739;
+}
+.cowndown {
+    display: flex;
+    margin: 50px;
+}
+.money__tranfer__img {
+    margin-top: 30px;
+}
+.money__tranfer__img img {
+    margin: 0.25rem;
+}
+
+/* ===========================================after-slider-section========================================= */
+.center {
+    font-size: 1.200rem;
+    line-height: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 10rem;
+}
+.center h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+.plateform {
+    margin: 1rem 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.secure {
+    width: 30%;
+    display: flex;
+    margin-top: 2.25rem;
+}
+.secure__img {
+    margin-right: 20px;
+}
+.secure__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
+/* ===========================================cryptocurrency-section =======================================*/
+.crypto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 2.5rem;
+}
+.bank {
+    width: 350px;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #1E2739;
+    margin: 30px;
+    padding: 1rem;
+
+}
+.middle__crypto {
+    width: 30%;
+}
+
+/* ===========================================start=========================================== */
+.start__99 {
+    display: flex;
+    align-items: center;
+}
+.start {
+    width: 350px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    margin: 30px;
+    padding: 1rem;
+}
+.start__text h3{
+    font-size: 25px;
+    padding: 15px;
+}
+/* ===========================================build-section===========================================*/
+build-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 2.5rem;
+}
+.build__text {
+    color: #fff;
+    width: 600px;
+}
+.build__text h2{
+    font-size: 4.25rem;
+    margin: 20px 0px;
+}
+.build__text h3 {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.build__text p{
+    font-size: 19px;
+    margin-bottom: 2.25rem;
+}
+
+/* ===========================================values-section=========================================== */
+.token-section {
+    margin: 1rem 2.25rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.token__1 {
+    color: #fff;
+    text-align: center;
+    line-height: 27px;
+    background-color: #67C3DA;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+.token__2 {
+    color: #fff;
+    text-align: center;
+    line-height: 27px;
+    background-color: #6F4CF2;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+.token__3 {
+    color: #fff;
+    text-align: center;
+    line-height: 27px;
+    background-color: #C660E8;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+.token__4 {
+    color: #fff;
+    text-align: center;
+    line-height: 27px;
+    background-color: #05B169;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+.token__5 {
+    color: #fff;
+    text-align: center;
+    line-height: 27px;
+    background-color: #F2924C;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+.token__6 {
+    color: #fff;
+    text-align: center;
+    line-height: 27px;
+    background-color: #E26270;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+.token__7 {
+    color: #fff;
+    text-align: center;
+    line-height: 27px;
+    background-color: #1652F0;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+.token__8 {
+    color: #fff;
+    text-align: center;
+    line-height: 27px;
+    background-color: #3DB2FF;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+
+/* ===========================================menegment-section=========================================== */
+.chat {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+}
+.token__description {
+    margin-left: 12rem;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* ===========================================content-secion=========================================== */
+.fist__content {
+    display: flex;
+    justify-content: center;
+}
+.time__content {
+    width: 400px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #1E2739;
+    padding: 20px;
+    line-height: 25px;
+    margin: 1rem .25rem;
+}
+.time__content__fck {
+    width: 400px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #151C2B;
+    padding: 20px;
+    line-height: 25px;
+    margin: 1rem 3.25rem;
+}
+/* ===========================================install-section=========================================== */
+install-section {
+    display: flex;
+    align-items: center;
+    margin: 1rem 2.25rem;
+    font-size: 18px;
+    color: #fff;
+}
+.second__line__cion, .first__line__icon {
+    font-size: 40px;
+    margin-top: 30px;
+}
+.second__line__cion i, .first__line__icon i {
+    font-size: 15px;
+    border: 0.5px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+} 
+.first__line__icon a, .second__line__cion a{
+    padding: 10px;
+    margin: 20px;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 3rem;
+}
+.install__icon__btn a{
+    line-height: 100px;
+    margin-left: 20px;
+}
+.install__icon__btn i{
+    margin-right: 10px;
+}
+
+/* ===========================================meet-section=========================================== */
+.men {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.first__man {
+    width: 270px;
+    color: #fff;
+    background-color: #1E2739;
+    line-height: 40px;
+    padding: 1rem;
+    margin: 1rem 2.25rem;
+    display: inline-block;
+    text-align: center;
+}
+.man__img {
+    border-radius: 50%;
+}
+.first__man a {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.first__man a:hover, .adversor__man a:hover  {
+    border-radius: 50px;
+    background-color:#F2924C;
+    transition: 0.5s;
+}
+
+/* ===========================================adversor__man=========================================== */
+.adversor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: none;
+    margin: 3rem 7rem;
+}
+.adversor__man {
+    width: 270px;
+    color: #fff;
+    line-height: 40px;
+    padding: 1rem;
+    text-align: center;
+}
+.adversor__img {
+    border-radius: 50%;
+}
+.adversor__man a {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* ===========================================support=========================================== */
+.support {
+   text-align: center;
+    margin-top: 2rem;
+}
+.fist__support img {
+    margin: 1rem 3rem;
+}
+
+/* ===========================================frist__faq =========================================== */
+.faq-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2.25rem;
+}
+.faq__heading {
+    width: 100%;
+    margin-right: 250px;
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+}
+.ttRr:checked ~.faq__para{
+    display: block;
+}
+.faq__para {
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-right: 250px;
+    display: none;
+}
+
+/* ===========================================section__blog=========================================== */
+.blog {
+    display: flex;
+    margin: 1rem 2.25rem;
+    text-align: center;
+}
+.fist__blog {
+    width: 350px;
+    color: #fff;
+    background-color: #1E2739;
+    text-align: center;
+    line-height: 50px;
+    margin: 2rem;
+    padding-bottom: 20px;
+}
+
+/* ===========================================subscribe__email=========================================== */
+.center__subcirbe {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.subscirbe-section{
+    background-color: #1E2739;
+    padding-top: 5px;
+}
+.subscribe__email__div{
+    text-align: center;
+    padding: 20px;
+}
+.subscribe__email {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(61, 61, 61);
+    padding: 1rem;
+    margin: 1rem 1rem;
+    border: 3px solid #fff;
+    border-radius: 40px;
+}
+
+/* ===========================================form-section=========================================== */
+.form-section-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.name, .email, .subject, .submit, .message {
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #1E2739;
+}
+.submit {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ffaa17;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #1E2739;
+    transition: 0.5s;
+}
+.name:focus, .email:focus, .subject:focus, .submit:focus, .message:focus {
+    outline: 1px solid #ffaa17;
+}
+/* ===========================================address=========================================== */
+.address {
+    color: #fff;
+    background-color: #1E2739;
+    padding: 0px 50px 50px 50px;
+}
+.address i {
+    font-size: 20px;
+    line-height: 50px;
+    color: #F2924C;
+}
+.address h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline;
+    margin-left: 5px;
+}
+.address__tex {
+    border-bottom: 1px solid #a0a0a0;
+    padding: 20px;
+}
+
+/* ===========================================map-section=========================================== */
+.map {
+    margin: 50px 0px;
+}
+
+/* ===========================================footer=========================================== */
+.footer__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__link ul {
+    display: flex;
+}
+.footer__link ul li {
+    margin: 20px;
+}
+.footer__link a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+}
+.footer__link a:hover {
+    color: #F2924C;
+    border-bottom: 3px solid #F2924C;
+    transition: 0.5s;
+}
+.cradit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 20px 0px;
+}
+.socil ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socil i {
+    color: #fff;
+    background-color: #1E2739;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+.socil i:hover {
+    background-color: #F2924C;
+    transition: 0.5s;
+}
